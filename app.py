@@ -237,26 +237,41 @@ DEFAULT_WINDOW_MONTHS = 12
 
 @st.cache_data(show_spinner=False)
 def download_data(ticker, years_of_data):
-    end_date = datetime.today()
-    start_date = end_date - timedelta(days=int(365.25 * years_of_data))
+    fallback_path = "data/es_f_yahoo_daily.csv"
 
-    data = yf.download(
-        ticker,
-        start=start_date.strftime("%Y-%m-%d"),
-        end=end_date.strftime("%Y-%m-%d"),
-        auto_adjust=True,
-        progress=False,
-    )
+    try:
+        end_date = datetime.today()
+        start_date = end_date - timedelta(days=int(365.25 * years_of_data))
 
-    if data.empty:
-        return pd.DataFrame()
+        data = yf.download(
+            ticker,
+            start=start_date.strftime("%Y-%m-%d"),
+            end=end_date.strftime("%Y-%m-%d"),
+            auto_adjust=True,
+            progress=False,
+        )
 
-    if isinstance(data.columns, pd.MultiIndex):
-        data.columns = data.columns.get_level_values(0)
+        if data.empty:
+            raise ValueError("Yahoo returned empty data.")
 
-    data = data[["Open", "High", "Low", "Close"]].dropna()
+        if isinstance(data.columns, pd.MultiIndex):
+            data.columns = data.columns.get_level_values(0)
 
-    return data
+        data = data[["Open", "High", "Low", "Close"]].dropna()
+        return data
+
+    except Exception as e:
+        st.warning(
+            f"Live Yahoo download failed, so the app is using saved fallback data instead. Error: {e}"
+        )
+
+        if not os.path.exists(fallback_path):
+            st.error("Fallback CSV not found. Please add data/es_f_yahoo_daily.csv to the repo.")
+            return pd.DataFrame()
+
+        data = pd.read_csv(fallback_path, index_col=0, parse_dates=True)
+        data = data[["Open", "High", "Low", "Close"]].dropna()
+        return data
 
 
 def prepare_signals(data):
