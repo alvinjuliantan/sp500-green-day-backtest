@@ -12,7 +12,12 @@
     "best_trade": 10.949335254167522,
     "worst_trade": -9.844689554419286,
     "profit_factor": 1.126321605492492,
-    "max_drawdown": -31.64423371334071
+    "max_drawdown": -31.64423371334071,
+    "expected_profit_per_trade": 0.04141356623933557,
+    "expected_return_per_trade_pct": 0.0004141356623933557,
+    "average_win": 0.6906960801984513,
+    "average_loss": -0.7044526099386095,
+    "payoff_ratio": 0.980472029564406
   },
   {
     "strategy": "buy_after_red",
@@ -27,7 +32,12 @@
     "best_trade": 10.949335254167522,
     "worst_trade": -9.844689554419286,
     "profit_factor": 1.2226694544130448,
-    "max_drawdown": -28.332827096976388
+    "max_drawdown": -28.332827096976388,
+    "expected_profit_per_trade": 0.080056752587312,
+    "expected_return_per_trade_pct": 0.00080056752587312,
+    "average_win": 0.7895010633307817,
+    "average_loss": -0.8112049443265947,
+    "payoff_ratio": 0.9732448857127837
   },
   {
     "strategy": "buy_after_every_green",
@@ -42,7 +52,12 @@
     "best_trade": 9.14825254673681,
     "worst_trade": -9.650668536699394,
     "profit_factor": 1.021252106657487,
-    "max_drawdown": -33.99133887415214
+    "max_drawdown": -33.99133887415214,
+    "expected_profit_per_trade": 0.006443839998754209,
+    "expected_return_per_trade_pct": 6.443839998754209e-05,
+    "average_win": 0.6017583807216763,
+    "average_loss": -0.6246342776386864,
+    "payoff_ratio": 0.9633771348516317
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -57,7 +72,12 @@
     "best_trade": 5.669655172413799,
     "worst_trade": -9.650668536699394,
     "profit_factor": 0.7967280872374891,
-    "max_drawdown": -33.54392396120557
+    "max_drawdown": -33.54392396120557,
+    "expected_profit_per_trade": -0.13502864747670335,
+    "expected_return_per_trade_pct": -0.0013502864747670334,
+    "average_win": 1.1257006589921152,
+    "average_loss": -1.2537039475828384,
+    "payoff_ratio": 0.897899907839075
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -72,7 +92,12 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -4.61647879002718,
     "profit_factor": 0.8634258235973389,
-    "max_drawdown": -26.187888295440462
+    "max_drawdown": -26.187888295440462,
+    "expected_profit_per_trade": -0.0420186818138529,
+    "expected_return_per_trade_pct": -0.00042018681813852895,
+    "average_win": 0.5503291310304685,
+    "average_loss": -0.5947445673776178,
+    "payoff_ratio": 0.9253201478695494
   },
   {
     "strategy": "buy_after_first_green_after_red",
@@ -87,7 +112,12 @@
     "best_trade": 5.669655172413799,
     "worst_trade": -9.650668536699394,
     "profit_factor": 0.8439298958222169,
-    "max_drawdown": -49.627402828483085
+    "max_drawdown": -49.627402828483085,
+    "expected_profit_per_trade": -0.05848000891682482,
+    "expected_return_per_trade_pct": -0.0005848000891682482,
+    "average_win": 0.6522108794732284,
+    "average_loss": -0.7273655509309926,
+    "payoff_ratio": 0.8966755143111055
   },
   {
     "strategy": "buy_after_first_green_after_two_reds",
@@ -102,6 +132,11 @@
     "best_trade": 5.669655172413799,
     "worst_trade": -9.650668536699394,
     "profit_factor": 0.7004114720980135,
-    "max_drawdown": -49.744943355871754
+    "max_drawdown": -49.744943355871754,
+    "expected_profit_per_trade": -0.13924821440501775,
+    "expected_return_per_trade_pct": -0.0013924821440501776,
+    "average_win": 0.7114668989425712,
+    "average_loss": -0.85689057259209,
+    "payoff_ratio": 0.8302890960632081
   }
 ]
