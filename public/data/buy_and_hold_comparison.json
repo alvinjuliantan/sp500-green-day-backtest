@@ -1,0 +1,10 @@
+[
+  {
+    "strategy": "buy_and_hold_100",
+    "number_of_trades": 1,
+    "total_deployed": 100.0,
+    "gross_profit": 286.0615012756815,
+    "net_profit": 286.0615012756815,
+    "return_on_deployed_capital": 2.860615012756815
+  }
+]

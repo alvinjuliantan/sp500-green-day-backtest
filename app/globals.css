@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  background-image: radial-gradient(circle at top, rgba(30, 41, 59, 0.45), transparent 40%);
+}
+
+.card {
+  @apply rounded-2xl border border-slate-800/80 bg-slate-900/60 p-5 shadow-glow;
+}
+
+.kpi {
+  @apply card flex flex-col gap-1;
+}
+
+.table-wrap {
+  @apply overflow-x-auto rounded-2xl border border-slate-800/80;
+}
