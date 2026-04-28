@@ -21,6 +21,11 @@ type SummaryRow = {
   average_1yr_net_profit: number;
   profitable_windows: number;
   number_of_windows: number;
+  expected_profit_per_trade?: number | null;
+  expected_return_per_trade_pct?: number | null;
+  average_win?: number | null;
+  average_loss?: number | null;
+  payoff_ratio?: number | null;
 };
 
 type WindowRow = {
@@ -36,9 +41,14 @@ type FullPeriodRow = {
   gross_profit: number;
   net_profit: number;
   return_on_deployed_capital: number;
-  win_rate?: number;
-  profit_factor?: number;
-  max_drawdown?: number;
+  win_rate?: number | null;
+  profit_factor?: number | null;
+  max_drawdown?: number | null;
+  expected_profit_per_trade?: number | null;
+  expected_return_per_trade_pct?: number | null;
+  average_win?: number | null;
+  average_loss?: number | null;
+  payoff_ratio?: number | null;
 };
 
 type Props = {
@@ -49,8 +59,20 @@ type Props = {
   displayNameMap: Record<string, string>;
 };
 
-const formatPct = (value: number) => `${(value * 100).toFixed(1)}%`;
-const formatPnL = (value: number) => `${value >= 0 ? "+" : ""}${value.toFixed(2)}`;
+const isNumber = (value: unknown): value is number =>
+  typeof value === "number" && Number.isFinite(value);
+
+const formatPct = (value?: number | null) =>
+  isNumber(value) ? `${(value * 100).toFixed(2)}%` : "—";
+
+const formatPctShort = (value?: number | null) =>
+  isNumber(value) ? `${(value * 100).toFixed(1)}%` : "—";
+
+const formatPnL = (value?: number | null) =>
+  isNumber(value) ? `${value >= 0 ? "+" : ""}${value.toFixed(2)}` : "—";
+
+const formatRatio = (value?: number | null) =>
+  isNumber(value) ? value.toFixed(2) : "—";
 
 export default function DashboardClient({
   rollingSummary,
@@ -63,7 +85,13 @@ export default function DashboardClient({
     (a, b) => b.probability_profitable_1yr - a.probability_profitable_1yr
   );
 
+  const expectancyRanked = [...rollingSummary].sort(
+    (a, b) => (b.expected_profit_per_trade ?? -Infinity) - (a.expected_profit_per_trade ?? -Infinity)
+  );
+
   const top = ranked[0];
+  const bestExpectancy = expectancyRanked[0];
+
   const mainStrategyKey = "buy_after_first_green_after_red";
   const main = ranked.find((r) => r.strategy === mainStrategyKey);
   const red = ranked.find((r) => r.strategy === "buy_after_red");
@@ -71,9 +99,9 @@ export default function DashboardClient({
 
   const verdict = !main
     ? "Not available"
-    : main.probability_profitable_1yr >= 0.65 && main.median_1yr_net_profit > 0
+    : main.probability_profitable_1yr >= 0.65 && main.median_1yr_net_profit > 0 && (main.expected_profit_per_trade ?? 0) > 0
       ? "Strong"
-      : main.probability_profitable_1yr >= 0.55 && main.median_1yr_net_profit > 0
+      : main.probability_profitable_1yr >= 0.55 && main.median_1yr_net_profit > 0 && (main.expected_profit_per_trade ?? 0) > 0
         ? "Mild / inconclusive"
         : "Weak";
 
@@ -94,7 +122,8 @@ export default function DashboardClient({
   const chartRanking = ranked.map((row) => ({
     strategy: displayNameMap[row.strategy] ?? row.strategy,
     probability: row.probability_profitable_1yr,
-    medianNet: row.median_1yr_net_profit
+    medianNet: row.median_1yr_net_profit,
+    expectedReturn: row.expected_profit_per_trade ?? 0
   }));
 
   return (
@@ -118,7 +147,7 @@ export default function DashboardClient({
         </div>
         <div className="kpi">
           <p className="text-xs uppercase tracking-widest text-slate-400">Probability profitable</p>
-          <p className="text-2xl font-semibold">{formatPct(top.probability_profitable_1yr)}</p>
+          <p className="text-2xl font-semibold">{formatPctShort(top.probability_profitable_1yr)}</p>
         </div>
         <div className="kpi">
           <p className="text-xs uppercase tracking-widest text-slate-400">Median one-year P/L</p>
@@ -127,6 +156,52 @@ export default function DashboardClient({
         <div className="kpi">
           <p className="text-xs uppercase tracking-widest text-slate-400">Worst one-year P/L</p>
           <p className="text-2xl font-semibold text-rose-300">{formatPnL(top.worst_1yr_net_profit)}</p>
+        </div>
+      </section>
+
+      <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
+        <div className="kpi">
+          <p className="text-xs uppercase tracking-widest text-slate-400">Best expectancy</p>
+          <p className="text-lg font-medium text-emerald-300">
+            {displayNameMap[bestExpectancy.strategy] ?? bestExpectancy.strategy}
+          </p>
+        </div>
+        <div className="kpi">
+          <p className="text-xs uppercase tracking-widest text-slate-400">Expected P/L / trade</p>
+          <p className="text-2xl font-semibold">{formatPnL(bestExpectancy.expected_profit_per_trade)}</p>
+        </div>
+        <div className="kpi">
+          <p className="text-xs uppercase tracking-widest text-slate-400">Expected return / trade</p>
+          <p className="text-2xl font-semibold">{formatPct(bestExpectancy.expected_return_per_trade_pct)}</p>
+        </div>
+        <div className="kpi">
+          <p className="text-xs uppercase tracking-widest text-slate-400">Average win</p>
+          <p className="text-2xl font-semibold text-emerald-300">{formatPnL(bestExpectancy.average_win)}</p>
+        </div>
+        <div className="kpi">
+          <p className="text-xs uppercase tracking-widest text-slate-400">Average loss</p>
+          <p className="text-2xl font-semibold text-rose-300">{formatPnL(bestExpectancy.average_loss)}</p>
+        </div>
+      </section>
+
+      <section className="card">
+        <h2 className="text-xl font-semibold">Expected Return Analysis</h2>
+        <div className="mt-4 space-y-3 text-slate-200">
+          <p>
+            Winning percentage alone is incomplete. A strategy can win often and still lose money if its average loss is larger than its average win.
+          </p>
+          <p>
+            Expected P/L per trade is the average net result each time the strategy trades. This is the practical measure of whether the edge is positive.
+          </p>
+          <p>
+            Main strategy: <span className="font-semibold text-cyan-300">Buy after first green after red</span>. Expected P/L per trade is{" "}
+            <span className="font-semibold">{formatPnL(main?.expected_profit_per_trade)}</span>, or{" "}
+            <span className="font-semibold">{formatPct(main?.expected_return_per_trade_pct)}</span> per $100 trade.
+          </p>
+          <p>
+            Comparison: Buy after red has expectancy of {red ? formatPnL(red.expected_profit_per_trade) : "n/a"} per trade.
+            Buy every session has expectancy of {every ? formatPnL(every.expected_profit_per_trade) : "n/a"} per trade.
+          </p>
         </div>
       </section>
 
@@ -141,6 +216,9 @@ export default function DashboardClient({
                 <th className="px-3 py-2">Probability profitable</th>
                 <th className="px-3 py-2">Median 1Y net P/L</th>
                 <th className="px-3 py-2">Worst 1Y net P/L</th>
+                <th className="px-3 py-2">Expected P/L / trade</th>
+                <th className="px-3 py-2">Expected return / trade</th>
+                <th className="px-3 py-2">Payoff ratio</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-800/70">
@@ -150,9 +228,12 @@ export default function DashboardClient({
                   <td className="px-3 py-2">
                     {row.profitable_windows} / {row.number_of_windows}
                   </td>
-                  <td className="px-3 py-2">{formatPct(row.probability_profitable_1yr)}</td>
+                  <td className="px-3 py-2">{formatPctShort(row.probability_profitable_1yr)}</td>
                   <td className="px-3 py-2">{formatPnL(row.median_1yr_net_profit)}</td>
                   <td className="px-3 py-2">{formatPnL(row.worst_1yr_net_profit)}</td>
+                  <td className="px-3 py-2">{formatPnL(row.expected_profit_per_trade)}</td>
+                  <td className="px-3 py-2">{formatPct(row.expected_return_per_trade_pct)}</td>
+                  <td className="px-3 py-2">{formatRatio(row.payoff_ratio)}</td>
                 </tr>
               ))}
             </tbody>
@@ -168,11 +249,26 @@ export default function DashboardClient({
               <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
               <XAxis dataKey="strategy" hide />
               <YAxis tickFormatter={(v) => `${(v * 100).toFixed(0)}%`} />
-              <Tooltip formatter={(value: number) => formatPct(value)} />
+              <Tooltip formatter={(value: number) => formatPctShort(value)} />
               <Bar dataKey="probability" fill="#22d3ee" radius={[6, 6, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>
+        <div className="card h-[360px]">
+          <h2 className="mb-4 text-lg font-semibold">Expected P/L per trade by strategy</h2>
+          <ResponsiveContainer>
+            <BarChart data={chartRanking}>
+              <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+              <XAxis dataKey="strategy" hide />
+              <YAxis />
+              <Tooltip formatter={(value: number) => formatPnL(value)} />
+              <Bar dataKey="expectedReturn" fill="#34d399" radius={[6, 6, 0, 0]} />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      </section>
+
+      <section className="grid gap-4 xl:grid-cols-2">
         <div className="card h-[360px]">
           <h2 className="mb-4 text-lg font-semibold">Median one-year net P/L by strategy</h2>
           <ResponsiveContainer>
@@ -182,6 +278,24 @@ export default function DashboardClient({
               <YAxis />
               <Tooltip formatter={(value: number) => formatPnL(value)} />
               <Bar dataKey="medianNet" fill="#818cf8" radius={[6, 6, 0, 0]} />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+
+        <div className="card h-[360px]">
+          <h2 className="mb-4 text-lg font-semibold">Full-period expectancy</h2>
+          <ResponsiveContainer>
+            <BarChart
+              data={fullPeriod.map((row) => ({
+                strategy: displayNameMap[row.strategy] ?? row.strategy,
+                expectedReturn: row.expected_profit_per_trade ?? 0
+              }))}
+            >
+              <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
+              <XAxis dataKey="strategy" hide />
+              <YAxis />
+              <Tooltip formatter={(value: number) => formatPnL(value)} />
+              <Bar dataKey="expectedReturn" fill="#f59e0b" radius={[6, 6, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>
@@ -221,6 +335,8 @@ export default function DashboardClient({
                   <th className="px-3 py-2">Net P/L</th>
                   <th className="px-3 py-2">Win rate</th>
                   <th className="px-3 py-2">Profit factor</th>
+                  <th className="px-3 py-2">Expected P/L / trade</th>
+                  <th className="px-3 py-2">Payoff ratio</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-800/70">
@@ -228,8 +344,10 @@ export default function DashboardClient({
                   <tr key={row.strategy}>
                     <td className="px-3 py-2">{displayNameMap[row.strategy] ?? row.strategy}</td>
                     <td className="px-3 py-2">{formatPnL(row.net_profit)}</td>
-                    <td className="px-3 py-2">{row.win_rate ? formatPct(row.win_rate) : "—"}</td>
-                    <td className="px-3 py-2">{row.profit_factor ? row.profit_factor.toFixed(2) : "—"}</td>
+                    <td className="px-3 py-2">{formatPctShort(row.win_rate)}</td>
+                    <td className="px-3 py-2">{formatRatio(row.profit_factor)}</td>
+                    <td className="px-3 py-2">{formatPnL(row.expected_profit_per_trade)}</td>
+                    <td className="px-3 py-2">{formatRatio(row.payoff_ratio)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -253,7 +371,7 @@ export default function DashboardClient({
                   <tr key={row.strategy}>
                     <td className="px-3 py-2">{displayNameMap[row.strategy] ?? row.strategy}</td>
                     <td className="px-3 py-2">{formatPnL(row.net_profit)}</td>
-                    <td className="px-3 py-2">{formatPct(row.return_on_deployed_capital)}</td>
+                    <td className="px-3 py-2">{formatPctShort(row.return_on_deployed_capital)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -267,25 +385,24 @@ export default function DashboardClient({
         <div className="mt-4 space-y-3 text-slate-200">
           <p>
             <span className="font-semibold text-cyan-300">Best strategy by probability:</span>{" "}
-            {displayNameMap[top.strategy] ?? top.strategy} ({formatPct(top.probability_profitable_1yr)} profitable windows).
+            {displayNameMap[top.strategy] ?? top.strategy} ({formatPctShort(top.probability_profitable_1yr)} profitable windows).
+          </p>
+          <p>
+            <span className="font-semibold text-cyan-300">Best strategy by expectancy:</span>{" "}
+            {displayNameMap[bestExpectancy.strategy] ?? bestExpectancy.strategy} with {formatPnL(bestExpectancy.expected_profit_per_trade)} expected P/L per trade.
           </p>
           <p>
             <span className="font-semibold text-cyan-300">Main strategy:</span> Buy after first green after red.
             {main
-              ? ` It shows ${formatPct(main.probability_profitable_1yr)} profitable windows and ${formatPnL(
+              ? ` It shows ${formatPctShort(main.probability_profitable_1yr)} profitable windows, ${formatPnL(
                   main.median_1yr_net_profit
-                )} median one-year P/L.`
+                )} median one-year P/L, and ${formatPnL(main.expected_profit_per_trade)} expected P/L per trade.`
               : " Data unavailable."}
-          </p>
-          <p>
-            <span className="font-semibold text-cyan-300">Comparison:</span>{" "}
-            vs Buy after red ({red ? `${formatPct(red.probability_profitable_1yr)}, ${formatPnL(red.median_1yr_net_profit)}` : "n/a"}) and
-            Buy every session ({every ? `${formatPct(every.probability_profitable_1yr)}, ${formatPnL(every.median_1yr_net_profit)}` : "n/a"}).
           </p>
           <p>
             <span className="font-semibold text-cyan-300">Plain-English verdict:</span> {verdict}
             {verdict === "Strong"
-              ? " — the strategy appears robust across rolling windows with positive median outcomes."
+              ? " — the strategy appears robust across rolling windows with positive expectancy."
               : verdict === "Mild / inconclusive"
                 ? " — results are positive but not dominant, so confidence should be moderate."
                 : " — the edge does not appear consistent enough under this test setup."}
