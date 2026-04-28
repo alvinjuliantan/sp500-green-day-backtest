@@ -61,7 +61,7 @@
     "number_of_trades": 61,
     "total_deployed": 6100.0,
     "gross_profit": -0.9775008140493702,
-    "net_profit": -2.197500814049372,
+    "net_profit": -2.1975008140493717,
     "return_on_deployed_capital": -0.00036024603509,
     "average_net_profit_per_trade": -0.036024603509006,
     "median_net_profit_per_trade": 0.051787508973431,
@@ -96,14 +96,14 @@
     "profitable": false,
     "number_of_trades": 61,
     "total_deployed": 6100.0,
-    "gross_profit": -5.423199047999495,
+    "gross_profit": -5.4231990479994945,
     "net_profit": -6.6431990479994925,
     "return_on_deployed_capital": -0.0010890490242622,
     "average_net_profit_per_trade": -0.1089049024262211,
     "median_net_profit_per_trade": -0.031917530687644,
     "win_rate": 0.4754098360655737,
     "best_trade": 2.5250031036623244,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.746365177765684,
     "max_drawdown": -9.464868207577611
   },
@@ -121,7 +121,7 @@
     "median_net_profit_per_trade": 0.051787508973431,
     "win_rate": 0.5254237288135594,
     "best_trade": 2.5250031036623244,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.8502715759465374,
     "max_drawdown": -9.46486820757761
   },
@@ -132,14 +132,14 @@
     "profitable": false,
     "number_of_trades": 59,
     "total_deployed": 5900.0,
-    "gross_profit": -2.9058997488010894,
+    "gross_profit": -2.90589974880109,
     "net_profit": -4.085899748801088,
     "return_on_deployed_capital": -0.0006925253811527,
     "average_net_profit_per_trade": -0.0692525381152726,
     "median_net_profit_per_trade": 0.0410426077402026,
     "win_rate": 0.5084745762711864,
     "best_trade": 2.5250031036623244,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.8184892005280167,
     "max_drawdown": -9.464868207577611
   },
@@ -157,7 +157,7 @@
     "median_net_profit_per_trade": -0.025958765343822,
     "win_rate": 0.4833333333333333,
     "best_trade": 1.6874981440237558,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.7140999860173524,
     "max_drawdown": -10.02199635181294
   },
@@ -175,7 +175,7 @@
     "median_net_profit_per_trade": -0.031917530687644,
     "win_rate": 0.4761904761904761,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.7966339537239367,
     "max_drawdown": -11.01532433053811
   },
@@ -193,7 +193,7 @@
     "median_net_profit_per_trade": -0.02,
     "win_rate": 0.4761904761904761,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.8038862180318244,
     "max_drawdown": -10.716122944030106
   },
@@ -211,7 +211,7 @@
     "median_net_profit_per_trade": 0.0464150583568168,
     "win_rate": 0.5161290322580645,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.9608648983324056,
     "max_drawdown": -10.716122944030106
   },
@@ -229,7 +229,7 @@
     "median_net_profit_per_trade": -0.025958765343822,
     "win_rate": 0.484375,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.8666809498193933,
     "max_drawdown": -10.716122944030108
   },
@@ -247,7 +247,7 @@
     "median_net_profit_per_trade": -0.063787869644124,
     "win_rate": 0.453125,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.7659698638815747,
     "max_drawdown": -10.314260482968034
   },
@@ -330,7 +330,7 @@
     "profitable": false,
     "number_of_trades": 68,
     "total_deployed": 6800.0,
-    "gross_profit": -5.270804480841719,
+    "gross_profit": -5.2708044808417185,
     "net_profit": -6.630804480841716,
     "return_on_deployed_capital": -0.0009751183060061,
     "average_net_profit_per_trade": -0.0975118306006134,
@@ -421,7 +421,7 @@
     "number_of_trades": 67,
     "total_deployed": 6700.0,
     "gross_profit": -5.5018426018792805,
-    "net_profit": -6.84184260187928,
+    "net_profit": -6.8418426018792795,
     "return_on_deployed_capital": -0.0010211705375939,
     "average_net_profit_per_trade": -0.1021170537593922,
     "median_net_profit_per_trade": -0.1132944606414021,
@@ -672,7 +672,7 @@
     "profitable": true,
     "number_of_trades": 58,
     "total_deployed": 5800.0,
-    "gross_profit": 3.223226228842257,
+    "gross_profit": 3.2232262288422575,
     "net_profit": 2.0632262288422565,
     "return_on_deployed_capital": 0.0003557286601452,
     "average_net_profit_per_trade": 0.0355728660145216,
@@ -727,7 +727,7 @@
     "number_of_trades": 60,
     "total_deployed": 6000.0,
     "gross_profit": 5.045629720270894,
-    "net_profit": 3.845629720270893,
+    "net_profit": 3.845629720270894,
     "return_on_deployed_capital": 0.0006409382867118,
     "average_net_profit_per_trade": 0.0640938286711815,
     "median_net_profit_per_trade": 0.0464424439973165,
@@ -745,7 +745,7 @@
     "number_of_trades": 61,
     "total_deployed": 6100.0,
     "gross_profit": 4.534147612210148,
-    "net_profit": 3.314147612210148,
+    "net_profit": 3.3141476122101476,
     "return_on_deployed_capital": 0.0005433028872475,
     "average_net_profit_per_trade": 0.0543302887247565,
     "median_net_profit_per_trade": 0.0316395558998183,
@@ -781,7 +781,7 @@
     "number_of_trades": 60,
     "total_deployed": 6000.0,
     "gross_profit": 3.826536939322844,
-    "net_profit": 2.6265369393228437,
+    "net_profit": 2.6265369393228433,
     "return_on_deployed_capital": 0.0004377561565538,
     "average_net_profit_per_trade": 0.0437756156553807,
     "median_net_profit_per_trade": -0.0328019117521527,
@@ -870,7 +870,7 @@
     "profitable": false,
     "number_of_trades": 64,
     "total_deployed": 6400.0,
-    "gross_profit": -2.7837475123939197,
+    "gross_profit": -2.7837475123939193,
     "net_profit": -4.06374751239392,
     "return_on_deployed_capital": -0.0006349605488115,
     "average_net_profit_per_trade": -0.063496054881155,
@@ -1077,7 +1077,7 @@
     "best_trade": 5.669655172413799,
     "worst_trade": -9.650668536699394,
     "profit_factor": 0.5965472564324206,
-    "max_drawdown": -21.19188899748877
+    "max_drawdown": -21.191888997488775
   },
   {
     "strategy": "buy_after_first_green_after_red",
@@ -1293,7 +1293,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -2.43758241758242,
     "profit_factor": 1.1658161090323589,
-    "max_drawdown": -3.7360777080584255
+    "max_drawdown": -3.7360777080584264
   },
   {
     "strategy": "buy_after_first_green_after_red",
@@ -1329,7 +1329,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -2.214475974271659,
     "profit_factor": 1.2728137441917973,
-    "max_drawdown": -3.7360777080584255
+    "max_drawdown": -3.7360777080584264
   },
   {
     "strategy": "buy_after_first_green_after_red",
@@ -1357,7 +1357,7 @@
     "number_of_trades": 64,
     "total_deployed": 6400.0,
     "gross_profit": 3.1865289678147946,
-    "net_profit": 1.9065289678147932,
+    "net_profit": 1.9065289678147936,
     "return_on_deployed_capital": 0.000297895151221,
     "average_net_profit_per_trade": 0.0297895151221061,
     "median_net_profit_per_trade": 0.13565075099081,
@@ -1374,7 +1374,7 @@
     "profitable": true,
     "number_of_trades": 65,
     "total_deployed": 6500.0,
-    "gross_profit": 3.654196043064108,
+    "gross_profit": 3.654196043064107,
     "net_profit": 2.3541960430641065,
     "return_on_deployed_capital": 0.0003621840066252,
     "average_net_profit_per_trade": 0.0362184006625247,
@@ -1410,7 +1410,7 @@
     "profitable": true,
     "number_of_trades": 64,
     "total_deployed": 6400.0,
-    "gross_profit": 3.639747379324676,
+    "gross_profit": 3.639747379324675,
     "net_profit": 2.359747379324676,
     "return_on_deployed_capital": 0.0003687105280194,
     "average_net_profit_per_trade": 0.036871052801948,
@@ -1466,7 +1466,7 @@
     "total_deployed": 6300.0,
     "gross_profit": 1.4978077200352828,
     "net_profit": 0.2378077200352808,
-    "return_on_deployed_capital": 3.774725714845728e-05,
+    "return_on_deployed_capital": 3.7747257148457275e-05,
     "average_net_profit_per_trade": 0.0037747257148457,
     "median_net_profit_per_trade": 0.1230956355831236,
     "win_rate": 0.5079365079365079,
@@ -1572,7 +1572,7 @@
     "profitable": false,
     "number_of_trades": 61,
     "total_deployed": 6100.0,
-    "gross_profit": -3.726753258657356,
+    "gross_profit": -3.726753258657355,
     "net_profit": -4.946753258657356,
     "return_on_deployed_capital": -0.0008109431571569,
     "average_net_profit_per_trade": -0.0810943157156943,
@@ -1662,7 +1662,7 @@
     "profitable": false,
     "number_of_trades": 62,
     "total_deployed": 6200.0,
-    "gross_profit": -4.992659545262812,
+    "gross_profit": -4.9926595452628115,
     "net_profit": -6.232659545262813,
     "return_on_deployed_capital": -0.0010052676685907,
     "average_net_profit_per_trade": -0.1005267668590776,
@@ -1777,7 +1777,7 @@
     "median_net_profit_per_trade": -0.0107951111640214,
     "win_rate": 0.5,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 0.9823046583594012,
     "max_drawdown": -6.494600321803445
   },
@@ -1795,7 +1795,7 @@
     "median_net_profit_per_trade": 0.0281898680802395,
     "win_rate": 0.5230769230769231,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 1.0618253662557324,
     "max_drawdown": -6.4922434559136
   },
@@ -1813,7 +1813,7 @@
     "median_net_profit_per_trade": 0.0369901988767607,
     "win_rate": 0.515625,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 1.0019809058668692,
     "max_drawdown": -4.718380279432573
   },
@@ -1831,7 +1831,7 @@
     "median_net_profit_per_trade": 0.0518218817332916,
     "win_rate": 0.5230769230769231,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 1.1641811792909704,
     "max_drawdown": -4.038850156161715
   },
@@ -1851,7 +1851,7 @@
     "best_trade": 1.7200000000000082,
     "worst_trade": -1.9464448336252185,
     "profit_factor": 1.1187045934165418,
-    "max_drawdown": -4.099698284787968
+    "max_drawdown": -4.0996982847879675
   },
   {
     "strategy": "buy_after_first_green_after_red",
@@ -1869,7 +1869,7 @@
     "best_trade": 1.6558724579462702,
     "worst_trade": -1.9464448336252185,
     "profit_factor": 1.0205700558936968,
-    "max_drawdown": -4.099698284787968
+    "max_drawdown": -4.0996982847879675
   },
   {
     "strategy": "buy_after_first_green_after_red",
@@ -1887,7 +1887,7 @@
     "best_trade": 1.6558724579462702,
     "worst_trade": -1.9464448336252185,
     "profit_factor": 1.0879259704559,
-    "max_drawdown": -4.099698284787968
+    "max_drawdown": -4.0996982847879675
   },
   {
     "strategy": "buy_after_first_green_after_red",
@@ -1905,7 +1905,7 @@
     "best_trade": 1.6558724579462702,
     "worst_trade": -1.9464448336252185,
     "profit_factor": 1.1115465383149814,
-    "max_drawdown": -4.099698284787968
+    "max_drawdown": -4.0996982847879675
   },
   {
     "strategy": "buy_after_first_green_after_red",
@@ -1923,7 +1923,7 @@
     "best_trade": 1.6558724579462702,
     "worst_trade": -1.9464448336252185,
     "profit_factor": 1.453828295781393,
-    "max_drawdown": -4.099698284787968
+    "max_drawdown": -4.0996982847879675
   },
   {
     "strategy": "buy_after_first_green_after_red",
@@ -1941,7 +1941,7 @@
     "best_trade": 1.6097846889952172,
     "worst_trade": -1.9101688849122025,
     "profit_factor": 1.636920414122267,
-    "max_drawdown": -4.099698284787968
+    "max_drawdown": -4.0996982847879675
   },
   {
     "strategy": "buy_after_first_green_after_red",
@@ -2058,7 +2058,7 @@
     "profitable": true,
     "number_of_trades": 62,
     "total_deployed": 6200.0,
-    "gross_profit": 5.036715128830672,
+    "gross_profit": 5.0367151288306715,
     "net_profit": 3.7967151288306704,
     "return_on_deployed_capital": 0.0006123734078759,
     "average_net_profit_per_trade": 0.0612373407875914,
@@ -2077,7 +2077,7 @@
     "number_of_trades": 60,
     "total_deployed": 6000.0,
     "gross_profit": 4.8821113963553815,
-    "net_profit": 3.682111396355381,
+    "net_profit": 3.6821113963553818,
     "return_on_deployed_capital": 0.0006136852327258,
     "average_net_profit_per_trade": 0.0613685232725896,
     "median_net_profit_per_trade": 0.0316416750250159,
@@ -2095,7 +2095,7 @@
     "number_of_trades": 61,
     "total_deployed": 6100.0,
     "gross_profit": 3.086300804886854,
-    "net_profit": 1.8663008048868532,
+    "net_profit": 1.8663008048868537,
     "return_on_deployed_capital": 0.0003059509516207,
     "average_net_profit_per_trade": 0.0305950951620795,
     "median_net_profit_per_trade": 0.0061244394130777,
@@ -2418,7 +2418,7 @@
     "profitable": false,
     "number_of_trades": 128,
     "total_deployed": 12800.0,
-    "gross_profit": -5.126943980047495,
+    "gross_profit": -5.1269439800474945,
     "net_profit": -7.686943980047497,
     "return_on_deployed_capital": -0.0006005424984412,
     "average_net_profit_per_trade": -0.060054249844121,
@@ -2472,14 +2472,14 @@
     "profitable": false,
     "number_of_trades": 122,
     "total_deployed": 12200.0,
-    "gross_profit": -3.258054653837096,
+    "gross_profit": -3.2580546538370956,
     "net_profit": -5.698054653837094,
     "return_on_deployed_capital": -0.0004670536601505,
     "average_net_profit_per_trade": -0.0467053660150581,
     "median_net_profit_per_trade": -0.044139767198561,
     "win_rate": 0.4426229508196721,
     "best_trade": 2.5250031036623244,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.8560337445315271,
     "max_drawdown": -11.291916300231826
   },
@@ -2497,7 +2497,7 @@
     "median_net_profit_per_trade": -0.0319510951616552,
     "win_rate": 0.4682539682539682,
     "best_trade": 2.5250031036623244,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.9260933791268992,
     "max_drawdown": -11.291916300231827
   },
@@ -2515,7 +2515,7 @@
     "median_net_profit_per_trade": -0.0319510951616552,
     "win_rate": 0.4758064516129032,
     "best_trade": 2.5250031036623244,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.9236371904334328,
     "max_drawdown": -11.291916300231826
   },
@@ -2533,7 +2533,7 @@
     "median_net_profit_per_trade": -0.0437276070708225,
     "win_rate": 0.48,
     "best_trade": 2.452633612363162,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.8727995841118882,
     "max_drawdown": -11.291916300231826
   },
@@ -2551,7 +2551,7 @@
     "median_net_profit_per_trade": -0.0616936694565717,
     "win_rate": 0.4682539682539682,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.8290640173030968,
     "max_drawdown": -12.538815445919802
   },
@@ -2569,7 +2569,7 @@
     "median_net_profit_per_trade": -0.093072707343802,
     "win_rate": 0.464,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.812654038359561,
     "max_drawdown": -11.784247668477736
   },
@@ -2587,7 +2587,7 @@
     "median_net_profit_per_trade": -0.0080354151710948,
     "win_rate": 0.5,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.9277801348999614,
     "max_drawdown": -10.694752098738562
   },
@@ -2605,7 +2605,7 @@
     "median_net_profit_per_trade": -0.0447616689364904,
     "win_rate": 0.4728682170542636,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.8382237024104772,
     "max_drawdown": -10.032699354230354
   },
@@ -2623,7 +2623,7 @@
     "median_net_profit_per_trade": -0.0447616689364904,
     "win_rate": 0.4728682170542636,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.8340735563189857,
     "max_drawdown": -8.369481435865142
   },
@@ -3156,7 +3156,7 @@
     "profitable": true,
     "number_of_trades": 145,
     "total_deployed": 14500.0,
-    "gross_profit": 20.17571300782805,
+    "gross_profit": 20.175713007828055,
     "net_profit": 17.275713007828053,
     "return_on_deployed_capital": 0.0011914284832984,
     "average_net_profit_per_trade": 0.1191428483298486,
@@ -3378,7 +3378,7 @@
     "average_net_profit_per_trade": 0.0469663038284882,
     "median_net_profit_per_trade": 0.0313127512186795,
     "win_rate": 0.5241379310344828,
-    "best_trade": 2.098791246960749,
+    "best_trade": 2.0987912469607495,
     "worst_trade": -3.099153872398499,
     "profit_factor": 1.1979830443221553,
     "max_drawdown": -6.816211176673526
@@ -3396,7 +3396,7 @@
     "average_net_profit_per_trade": 0.0582472184390793,
     "median_net_profit_per_trade": 0.0446735683454302,
     "win_rate": 0.5328947368421053,
-    "best_trade": 2.098791246960749,
+    "best_trade": 2.0987912469607495,
     "worst_trade": -3.099153872398499,
     "profit_factor": 1.2569592693781289,
     "max_drawdown": -6.816211176673526
@@ -3414,7 +3414,7 @@
     "average_net_profit_per_trade": 0.0282312851024601,
     "median_net_profit_per_trade": 0.0042228502220331,
     "win_rate": 0.5033557046979866,
-    "best_trade": 2.098791246960749,
+    "best_trade": 2.0987912469607495,
     "worst_trade": -3.099153872398499,
     "profit_factor": 1.1181141486788684,
     "max_drawdown": -5.8097904264304345
@@ -3432,7 +3432,7 @@
     "average_net_profit_per_trade": 0.0444875399457616,
     "median_net_profit_per_trade": 0.0313127512186795,
     "win_rate": 0.5170068027210885,
-    "best_trade": 2.098791246960749,
+    "best_trade": 2.0987912469607495,
     "worst_trade": -3.099153872398499,
     "profit_factor": 1.181581583385798,
     "max_drawdown": -4.593495637144149
@@ -3462,7 +3462,7 @@
     "profitable": false,
     "number_of_trades": 146,
     "total_deployed": 14600.0,
-    "gross_profit": -2.9815673352956478,
+    "gross_profit": -2.9815673352956473,
     "net_profit": -5.9015673352956455,
     "return_on_deployed_capital": -0.0004042169407736,
     "average_net_profit_per_trade": -0.0404216940773674,
@@ -3606,7 +3606,7 @@
     "profitable": true,
     "number_of_trades": 142,
     "total_deployed": 14200.0,
-    "gross_profit": 3.744966321926421,
+    "gross_profit": 3.7449663219264218,
     "net_profit": 0.904966321926426,
     "return_on_deployed_capital": 6.373002267087507e-05,
     "average_net_profit_per_trade": 0.0063730022670875,
@@ -3625,7 +3625,7 @@
     "number_of_trades": 142,
     "total_deployed": 14200.0,
     "gross_profit": 5.888796688177821,
-    "net_profit": 3.048796688177821,
+    "net_profit": 3.0487966881778212,
     "return_on_deployed_capital": 0.0002147039921251,
     "average_net_profit_per_trade": 0.0214703992125198,
     "median_net_profit_per_trade": 0.0548029899645508,
@@ -3651,7 +3651,7 @@
     "best_trade": 9.14825254673681,
     "worst_trade": -9.650668536699394,
     "profit_factor": 1.0146150013771251,
-    "max_drawdown": -22.127230102624694
+    "max_drawdown": -22.127230102624697
   },
   {
     "strategy": "buy_after_every_green",
@@ -3939,7 +3939,7 @@
     "best_trade": 3.440801796446744,
     "worst_trade": -4.138545676749163,
     "profit_factor": 0.8855751806173839,
-    "max_drawdown": -18.10328594166256
+    "max_drawdown": -18.103285941662556
   },
   {
     "strategy": "buy_after_every_green",
@@ -3948,7 +3948,7 @@
     "profitable": false,
     "number_of_trades": 125,
     "total_deployed": 12500.0,
-    "gross_profit": -3.961571124574703,
+    "gross_profit": -3.9615711245747023,
     "net_profit": -6.461571124574705,
     "return_on_deployed_capital": -0.0005169256899659,
     "average_net_profit_per_trade": -0.0516925689965976,
@@ -3957,7 +3957,7 @@
     "best_trade": 3.440801796446744,
     "worst_trade": -4.138545676749163,
     "profit_factor": 0.8929592775951445,
-    "max_drawdown": -18.10328594166256
+    "max_drawdown": -18.103285941662556
   },
   {
     "strategy": "buy_after_every_green",
@@ -4021,7 +4021,7 @@
     "number_of_trades": 112,
     "total_deployed": 11200.0,
     "gross_profit": -17.70922884947713,
-    "net_profit": -19.949228849477134,
+    "net_profit": -19.949228849477137,
     "return_on_deployed_capital": -0.0017811811472747,
     "average_net_profit_per_trade": -0.1781181147274744,
     "median_net_profit_per_trade": -0.1605979689174441,
@@ -4056,7 +4056,7 @@
     "profitable": false,
     "number_of_trades": 113,
     "total_deployed": 11300.0,
-    "gross_profit": -18.66955582037776,
+    "gross_profit": -18.669555820377756,
     "net_profit": -20.92955582037776,
     "return_on_deployed_capital": -0.0018521730814493,
     "average_net_profit_per_trade": -0.1852173081449359,
@@ -4083,7 +4083,7 @@
     "best_trade": 3.440801796446744,
     "worst_trade": -4.560763673890612,
     "profit_factor": 0.6731185181472524,
-    "max_drawdown": -26.58705998195769
+    "max_drawdown": -26.587059981957697
   },
   {
     "strategy": "buy_after_every_green",
@@ -4092,7 +4092,7 @@
     "profitable": false,
     "number_of_trades": 113,
     "total_deployed": 11300.0,
-    "gross_profit": -24.16074614078517,
+    "gross_profit": -24.160746140785175,
     "net_profit": -26.42074614078517,
     "return_on_deployed_capital": -0.0023381191275031,
     "average_net_profit_per_trade": -0.2338119127503112,
@@ -4207,7 +4207,7 @@
     "median_net_profit_per_trade": -0.112902266815309,
     "win_rate": 0.4628099173553719,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 0.958684223513152,
     "max_drawdown": -9.222969716245665
   },
@@ -4225,7 +4225,7 @@
     "median_net_profit_per_trade": -0.0996717180899464,
     "win_rate": 0.4666666666666667,
     "best_trade": 1.7200000000000082,
-    "worst_trade": -2.02913242009132,
+    "worst_trade": -2.0291324200913197,
     "profit_factor": 0.92451921121625,
     "max_drawdown": -9.22296971624566
   },
@@ -4569,7 +4569,7 @@
     "best_trade": 2.35103217215755,
     "worst_trade": -3.663798273512045,
     "profit_factor": 0.8191330945845757,
-    "max_drawdown": -22.11122573373645
+    "max_drawdown": -22.111225733736457
   },
   {
     "strategy": "buy_after_every_green",
@@ -4677,7 +4677,7 @@
     "best_trade": 1.8747015425888611,
     "worst_trade": -3.663798273512045,
     "profit_factor": 0.7367705976784116,
-    "max_drawdown": -21.797852712665797
+    "max_drawdown": -21.797852712665794
   },
   {
     "strategy": "buy_after_every_green",
@@ -4905,7 +4905,7 @@
     "gross_profit": 2.4461751142366945,
     "net_profit": 0.0061751142366897,
     "return_on_deployed_capital": 5.061569046466971e-07,
-    "average_net_profit_per_trade": 5.061569046466972e-05,
+    "average_net_profit_per_trade": 5.0615690464669715e-05,
     "median_net_profit_per_trade": -0.02,
     "win_rate": 0.4836065573770491,
     "best_trade": 2.5364105908438828,
@@ -4920,7 +4920,7 @@
     "profitable": true,
     "number_of_trades": 120,
     "total_deployed": 12000.0,
-    "gross_profit": 3.715753059299397,
+    "gross_profit": 3.7157530592993977,
     "net_profit": 1.315753059299397,
     "return_on_deployed_capital": 0.0001096460882749,
     "average_net_profit_per_trade": 0.0109646088274949,
@@ -4957,7 +4957,7 @@
     "number_of_trades": 118,
     "total_deployed": 11800.0,
     "gross_profit": 5.811889714112551,
-    "net_profit": 3.451889714112549,
+    "net_profit": 3.4518897141125495,
     "return_on_deployed_capital": 0.0002925330266197,
     "average_net_profit_per_trade": 0.0292533026619707,
     "median_net_profit_per_trade": 0.0238160053121694,
@@ -5137,7 +5137,7 @@
     "number_of_trades": 117,
     "total_deployed": 11700.0,
     "gross_profit": 21.5735008306497,
-    "net_profit": 19.23350083064969,
+    "net_profit": 19.233500830649692,
     "return_on_deployed_capital": 0.0016438889598845,
     "average_net_profit_per_trade": 0.1643888959884589,
     "median_net_profit_per_trade": 0.1390728326326562,
@@ -5162,7 +5162,7 @@
     "win_rate": 0.6036036036036037,
     "best_trade": 2.573360995850613,
     "worst_trade": -2.523157653002641,
-    "profit_factor": 2.0138327336831194,
+    "profit_factor": 2.013832733683119,
     "max_drawdown": -2.863597112833265
   },
   {
@@ -5306,7 +5306,7 @@
     "win_rate": 0.6082474226804123,
     "best_trade": 1.2064749418481768,
     "worst_trade": -1.6473732526601248,
-    "profit_factor": 2.355410122215237,
+    "profit_factor": 2.3554101222152375,
     "max_drawdown": -1.6473732526601248
   },
   {
@@ -5324,7 +5324,7 @@
     "win_rate": 0.6145833333333334,
     "best_trade": 1.2064749418481768,
     "worst_trade": -1.6473732526601248,
-    "profit_factor": 2.3153708708417597,
+    "profit_factor": 2.3153708708417593,
     "max_drawdown": -1.6473732526601248
   },
   {
@@ -5586,7 +5586,7 @@
     "profitable": false,
     "number_of_trades": 112,
     "total_deployed": 11200.0,
-    "gross_profit": -2.4413961104468918,
+    "gross_profit": -2.4413961104468913,
     "net_profit": -4.681396110446893,
     "return_on_deployed_capital": -0.0004179817955756,
     "average_net_profit_per_trade": -0.0417981795575615,
@@ -5649,7 +5649,7 @@
     "best_trade": 5.196095380029806,
     "worst_trade": -3.6832891660171474,
     "profit_factor": 1.100007656950491,
-    "max_drawdown": -22.427876286667374
+    "max_drawdown": -22.427876286667377
   },
   {
     "strategy": "buy_after_red",
@@ -5766,7 +5766,7 @@
     "profitable": true,
     "number_of_trades": 99,
     "total_deployed": 9900.0,
-    "gross_profit": 20.7248402876732,
+    "gross_profit": 20.724840287673196,
     "net_profit": 18.7448402876732,
     "return_on_deployed_capital": 0.001893418210876,
     "average_net_profit_per_trade": 0.189341821087608,
@@ -5790,7 +5790,7 @@
     "average_net_profit_per_trade": 0.1625491069001324,
     "median_net_profit_per_trade": 0.2437727032933856,
     "win_rate": 0.6796116504854369,
-    "best_trade": 2.1016156236129717,
+    "best_trade": 2.1016156236129713,
     "worst_trade": -3.408239310403685,
     "profit_factor": 1.7054065798267326,
     "max_drawdown": -6.16241646335286
@@ -5808,7 +5808,7 @@
     "average_net_profit_per_trade": 0.0348586608755003,
     "median_net_profit_per_trade": 0.1979352651545674,
     "win_rate": 0.6571428571428571,
-    "best_trade": 2.1016156236129717,
+    "best_trade": 2.1016156236129713,
     "worst_trade": -4.64059511329731,
     "profit_factor": 1.1062857321932076,
     "max_drawdown": -11.737790586775898
@@ -5892,7 +5892,7 @@
     "profitable": true,
     "number_of_trades": 103,
     "total_deployed": 10300.0,
-    "gross_profit": 38.97081847522684,
+    "gross_profit": 38.970818475226835,
     "net_profit": 36.910818475226826,
     "return_on_deployed_capital": 0.0035835746092453,
     "average_net_profit_per_trade": 0.3583574609245323,
@@ -5910,7 +5910,7 @@
     "profitable": true,
     "number_of_trades": 96,
     "total_deployed": 9600.0,
-    "gross_profit": 41.05083829019272,
+    "gross_profit": 41.050838290192715,
     "net_profit": 39.13083829019272,
     "return_on_deployed_capital": 0.0040761289885617,
     "average_net_profit_per_trade": 0.4076128988561742,
@@ -6207,7 +6207,7 @@
     "best_trade": 2.1150448621389795,
     "worst_trade": -2.6466172550549416,
     "profit_factor": 1.375103336114764,
-    "max_drawdown": -4.31631212778708
+    "max_drawdown": -4.3163121277870795
   },
   {
     "strategy": "buy_after_red",
@@ -6259,7 +6259,7 @@
     "median_net_profit_per_trade": 0.0333504054630817,
     "win_rate": 0.5217391304347826,
     "best_trade": 2.923655189019978,
-    "worst_trade": -2.578746736292428,
+    "worst_trade": -2.5787467362924277,
     "profit_factor": 1.0444488312236586,
     "max_drawdown": -10.77153983032572
   },
@@ -6361,7 +6361,7 @@
     "number_of_trades": 131,
     "total_deployed": 13100.0,
     "gross_profit": 0.0640202882389742,
-    "net_profit": -2.555979711761028,
+    "net_profit": -2.5559797117610277,
     "return_on_deployed_capital": -0.0001951129550962,
     "average_net_profit_per_trade": -0.0195112955096261,
     "median_net_profit_per_trade": -0.0630570505920324,
@@ -6612,7 +6612,7 @@
     "profitable": true,
     "number_of_trades": 125,
     "total_deployed": 12500.0,
-    "gross_profit": 3.706240131473337,
+    "gross_profit": 3.7062401314733378,
     "net_profit": 1.2062401314733355,
     "return_on_deployed_capital": 9.649921051786684e-05,
     "average_net_profit_per_trade": 0.0096499210517866,
@@ -6637,7 +6637,7 @@
     "median_net_profit_per_trade": 0.0461534760644677,
     "win_rate": 0.5470085470085471,
     "best_trade": 2.1323610748760857,
-    "worst_trade": -1.911991182953712,
+    "worst_trade": -1.9119911829537115,
     "profit_factor": 1.2104020202285095,
     "max_drawdown": -9.339942626238164
   },
@@ -6655,7 +6655,7 @@
     "median_net_profit_per_trade": 0.0398909983829498,
     "win_rate": 0.5470085470085471,
     "best_trade": 1.8716934891862969,
-    "worst_trade": -1.911991182953712,
+    "worst_trade": -1.9119911829537115,
     "profit_factor": 1.1191042102192343,
     "max_drawdown": -9.33994262623817
   },
@@ -7008,7 +7008,7 @@
     "profitable": true,
     "number_of_trades": 109,
     "total_deployed": 10900.0,
-    "gross_profit": 18.545192733798757,
+    "gross_profit": 18.545192733798753,
     "net_profit": 16.365192733798757,
     "return_on_deployed_capital": 0.0015013938287888,
     "average_net_profit_per_trade": 0.1501393828788876,
@@ -7063,7 +7063,7 @@
     "number_of_trades": 110,
     "total_deployed": 11000.0,
     "gross_profit": 21.0075768872698,
-    "net_profit": 18.8075768872698,
+    "net_profit": 18.807576887269796,
     "return_on_deployed_capital": 0.0017097797170245,
     "average_net_profit_per_trade": 0.1709779717024526,
     "median_net_profit_per_trade": 0.1382176107588595,
@@ -7098,7 +7098,7 @@
     "profitable": true,
     "number_of_trades": 111,
     "total_deployed": 11100.0,
-    "gross_profit": 19.19579550938329,
+    "gross_profit": 19.195795509383295,
     "net_profit": 16.975795509383303,
     "return_on_deployed_capital": 0.0015293509467912,
     "average_net_profit_per_trade": 0.1529350946791288,
@@ -7152,7 +7152,7 @@
     "profitable": false,
     "number_of_trades": 30,
     "total_deployed": 3000.0,
-    "gross_profit": -3.219673163785885,
+    "gross_profit": -3.2196731637858855,
     "net_profit": -3.819673163785885,
     "return_on_deployed_capital": -0.0012732243879286,
     "average_net_profit_per_trade": -0.1273224387928628,
@@ -7189,7 +7189,7 @@
     "number_of_trades": 31,
     "total_deployed": 3100.0,
     "gross_profit": -4.006333109072846,
-    "net_profit": -4.626333109072848,
+    "net_profit": -4.6263331090728474,
     "return_on_deployed_capital": -0.0014923655190557,
     "average_net_profit_per_trade": -0.1492365519055757,
     "median_net_profit_per_trade": 0.0413195977434477,
@@ -7231,7 +7231,7 @@
     "median_net_profit_per_trade": -0.0970218228498098,
     "win_rate": 0.4545454545454545,
     "best_trade": 2.5250031036623244,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.531783333477273,
     "max_drawdown": -8.91769137797221
   },
@@ -7249,7 +7249,7 @@
     "median_net_profit_per_trade": 0.057167339392381,
     "win_rate": 0.5588235294117647,
     "best_trade": 2.5250031036623244,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.7761214443932943,
     "max_drawdown": -8.917691377972208
   },
@@ -7267,7 +7267,7 @@
     "median_net_profit_per_trade": 0.0464150583568168,
     "win_rate": 0.5294117647058824,
     "best_trade": 2.5250031036623244,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.7285845277812373,
     "max_drawdown": -8.917691377972208
   },
@@ -7285,7 +7285,7 @@
     "median_net_profit_per_trade": -0.031917530687644,
     "win_rate": 0.4857142857142857,
     "best_trade": 1.6874981440237558,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.5456787079954118,
     "max_drawdown": -10.138471563153928
   },
@@ -7303,7 +7303,7 @@
     "median_net_profit_per_trade": -0.0644696767687269,
     "win_rate": 0.4705882352941176,
     "best_trade": 1.6348173571953928,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.4825706817463571,
     "max_drawdown": -11.331957097258025
   },
@@ -7321,7 +7321,7 @@
     "median_net_profit_per_trade": -0.0970218228498098,
     "win_rate": 0.4571428571428571,
     "best_trade": 1.6348173571953928,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.518595037251571,
     "max_drawdown": -11.331957097258025
   },
@@ -7339,7 +7339,7 @@
     "median_net_profit_per_trade": 0.0045625385262793,
     "win_rate": 0.5,
     "best_trade": 1.6348173571953928,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.5912144710060183,
     "max_drawdown": -11.33195709725802
   },
@@ -7357,7 +7357,7 @@
     "median_net_profit_per_trade": -0.0970218228498098,
     "win_rate": 0.4545454545454545,
     "best_trade": 1.2398847339498675,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.4493812102724066,
     "max_drawdown": -11.331957097258025
   },
@@ -7375,7 +7375,7 @@
     "median_net_profit_per_trade": -0.3954054440657129,
     "win_rate": 0.375,
     "best_trade": 1.2398847339498675,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.3222547817853717,
     "max_drawdown": -12.83076624478942
   },
@@ -7393,7 +7393,7 @@
     "median_net_profit_per_trade": -0.2560042379714711,
     "win_rate": 0.4375,
     "best_trade": 1.8781880931837835,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.4383732475957229,
     "max_drawdown": -11.135172948229329
   },
@@ -7411,7 +7411,7 @@
     "median_net_profit_per_trade": -0.2560042379714711,
     "win_rate": 0.4333333333333333,
     "best_trade": 1.8781880931837835,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.4441430403271257,
     "max_drawdown": -10.422718315946616
   },
@@ -7429,7 +7429,7 @@
     "median_net_profit_per_trade": -0.1308237901736197,
     "win_rate": 0.4516129032258064,
     "best_trade": 1.8781880931837835,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.4781686332152541,
     "max_drawdown": -9.306053508448462
   },
@@ -7458,7 +7458,7 @@
     "profitable": false,
     "number_of_trades": 30,
     "total_deployed": 3000.0,
-    "gross_profit": -5.042986849761522,
+    "gross_profit": -5.0429868497615224,
     "net_profit": -5.642986849761521,
     "return_on_deployed_capital": -0.0018809956165871,
     "average_net_profit_per_trade": -0.1880995616587173,
@@ -7584,7 +7584,7 @@
     "profitable": true,
     "number_of_trades": 26,
     "total_deployed": 2600.0,
-    "gross_profit": 2.562735790342208,
+    "gross_profit": 2.5627357903422077,
     "net_profit": 2.042735790342207,
     "return_on_deployed_capital": 0.00078566761167,
     "average_net_profit_per_trade": 0.0785667611670079,
@@ -7801,7 +7801,7 @@
     "number_of_trades": 22,
     "total_deployed": 2200.0,
     "gross_profit": -1.885163425871439,
-    "net_profit": -2.3251634258714398,
+    "net_profit": -2.3251634258714393,
     "return_on_deployed_capital": -0.0010568924663051,
     "average_net_profit_per_trade": -0.1056892466305199,
     "median_net_profit_per_trade": -0.078557018156552,
@@ -8322,7 +8322,7 @@
     "profitable": false,
     "number_of_trades": 22,
     "total_deployed": 2200.0,
-    "gross_profit": -7.384747697113434,
+    "gross_profit": -7.384747697113435,
     "net_profit": -7.824747697113437,
     "return_on_deployed_capital": -0.0035567034986879,
     "average_net_profit_per_trade": -0.3556703498687926,
@@ -8520,7 +8520,7 @@
     "profitable": false,
     "number_of_trades": 28,
     "total_deployed": 2800.0,
-    "gross_profit": -2.555217623600225,
+    "gross_profit": -2.5552176236002255,
     "net_profit": -3.115217623600226,
     "return_on_deployed_capital": -0.0011125777227143,
     "average_net_profit_per_trade": -0.1112577722714366,
@@ -8601,7 +8601,7 @@
     "best_trade": 1.6850347321889925,
     "worst_trade": -1.4477522935779774,
     "profit_factor": 0.8867610900085607,
-    "max_drawdown": -2.7485580691531357
+    "max_drawdown": -2.7485580691531353
   },
   {
     "strategy": "buy_after_first_green_after_two_reds",
@@ -8628,7 +8628,7 @@
     "profitable": true,
     "number_of_trades": 29,
     "total_deployed": 2900.0,
-    "gross_profit": 5.893576118503408,
+    "gross_profit": 5.8935761185034075,
     "net_profit": 5.313576118503407,
     "return_on_deployed_capital": 0.0018322676270701,
     "average_net_profit_per_trade": 0.183226762707014,
@@ -8889,7 +8889,7 @@
     "best_trade": 2.867866901122682,
     "worst_trade": -3.340814390195692,
     "profit_factor": 0.8208324465767382,
-    "max_drawdown": -7.121432413619623
+    "max_drawdown": -7.1214324136196225
   },
   {
     "strategy": "buy_after_first_green_after_two_reds",
@@ -8905,7 +8905,7 @@
     "median_net_profit_per_trade": -0.0107951111640214,
     "win_rate": 0.5,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 1.146270701194315,
     "max_drawdown": -3.84140683161984
   },
@@ -8923,7 +8923,7 @@
     "median_net_profit_per_trade": 0.0281898680802395,
     "win_rate": 0.5405405405405406,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 1.301564898885162,
     "max_drawdown": -3.84140683161984
   },
@@ -8934,14 +8934,14 @@
     "profitable": true,
     "number_of_trades": 37,
     "total_deployed": 3700.0,
-    "gross_profit": 2.7272000849216997,
+    "gross_profit": 2.7272000849216993,
     "net_profit": 1.9872000849216984,
     "return_on_deployed_capital": 0.0005370811040328,
     "average_net_profit_per_trade": 0.0537081104032891,
     "median_net_profit_per_trade": 0.0221585160202297,
     "win_rate": 0.5135135135135135,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 1.12798383271878,
     "max_drawdown": -3.3583044260823858
   },
@@ -8959,7 +8959,7 @@
     "median_net_profit_per_trade": 0.0407258370767249,
     "win_rate": 0.5277777777777778,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 1.3420407381892696,
     "max_drawdown": -2.3619887493906884
   },
@@ -9212,7 +9212,7 @@
     "win_rate": 0.6956521739130435,
     "best_trade": 1.6097846889952172,
     "worst_trade": -1.4144884504102806,
-    "profit_factor": 4.241191472589335,
+    "profit_factor": 4.2411914725893345,
     "max_drawdown": -1.4250687066273129
   },
   {
@@ -9519,7 +9519,7 @@
     "best_trade": 1.6348173571953928,
     "worst_trade": -1.728784596871238,
     "profit_factor": 0.6918764533746855,
-    "max_drawdown": -4.66674454886638
+    "max_drawdown": -4.6667445488663795
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -9537,7 +9537,7 @@
     "best_trade": 1.6348173571953928,
     "worst_trade": -1.728784596871238,
     "profit_factor": 0.9450136438829072,
-    "max_drawdown": -4.66674454886638
+    "max_drawdown": -4.6667445488663795
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -9555,7 +9555,7 @@
     "best_trade": 1.6348173571953928,
     "worst_trade": -1.728784596871238,
     "profit_factor": 0.700362494465814,
-    "max_drawdown": -4.66674454886638
+    "max_drawdown": -4.6667445488663795
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -9573,7 +9573,7 @@
     "best_trade": 1.6348173571953928,
     "worst_trade": -1.728784596871238,
     "profit_factor": 0.6074342181756199,
-    "max_drawdown": -4.66674454886638
+    "max_drawdown": -4.6667445488663795
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -9636,7 +9636,7 @@
     "profitable": false,
     "number_of_trades": 36,
     "total_deployed": 3600.0,
-    "gross_profit": -4.17712707937774,
+    "gross_profit": -4.1771270793777395,
     "net_profit": -4.897127079377739,
     "return_on_deployed_capital": -0.0013603130776049,
     "average_net_profit_per_trade": -0.1360313077604927,
@@ -9925,7 +9925,7 @@
     "number_of_trades": 67,
     "total_deployed": 6700.0,
     "gross_profit": -5.5018426018792805,
-    "net_profit": -6.84184260187928,
+    "net_profit": -6.8418426018792795,
     "return_on_deployed_capital": -0.0010211705375939,
     "average_net_profit_per_trade": -0.1021170537593922,
     "median_net_profit_per_trade": -0.1132944606414021,
@@ -10176,7 +10176,7 @@
     "profitable": true,
     "number_of_trades": 58,
     "total_deployed": 5800.0,
-    "gross_profit": 3.223226228842257,
+    "gross_profit": 3.2232262288422575,
     "net_profit": 2.0632262288422565,
     "return_on_deployed_capital": 0.0003557286601452,
     "average_net_profit_per_trade": 0.0355728660145216,
@@ -10231,7 +10231,7 @@
     "number_of_trades": 60,
     "total_deployed": 6000.0,
     "gross_profit": 5.045629720270894,
-    "net_profit": 3.845629720270893,
+    "net_profit": 3.845629720270894,
     "return_on_deployed_capital": 0.0006409382867118,
     "average_net_profit_per_trade": 0.0640938286711815,
     "median_net_profit_per_trade": 0.0464424439973165,
@@ -10249,7 +10249,7 @@
     "number_of_trades": 61,
     "total_deployed": 6100.0,
     "gross_profit": 4.534147612210148,
-    "net_profit": 3.314147612210148,
+    "net_profit": 3.3141476122101476,
     "return_on_deployed_capital": 0.0005433028872475,
     "average_net_profit_per_trade": 0.0543302887247565,
     "median_net_profit_per_trade": 0.0316395558998183,
@@ -10302,7 +10302,7 @@
     "profitable": true,
     "number_of_trades": 49,
     "total_deployed": 4900.0,
-    "gross_profit": 1.8960619961656435,
+    "gross_profit": 1.8960619961656433,
     "net_profit": 0.9160619961656424,
     "return_on_deployed_capital": 0.0001869514277889,
     "average_net_profit_per_trade": 0.0186951427788906,
@@ -10554,7 +10554,7 @@
     "profitable": false,
     "number_of_trades": 67,
     "total_deployed": 6700.0,
-    "gross_profit": -3.2361207314765434,
+    "gross_profit": -3.236120731476543,
     "net_profit": -4.576120731476545,
     "return_on_deployed_capital": -0.0006830030942502,
     "average_net_profit_per_trade": -0.068300309425023,
@@ -10617,7 +10617,7 @@
     "best_trade": 1.683013023040767,
     "worst_trade": -3.099153872398499,
     "profit_factor": 0.8726146391703984,
-    "max_drawdown": -5.665454596660132
+    "max_drawdown": -5.6654545966601315
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10635,7 +10635,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -3.099153872398499,
     "profit_factor": 1.111492947114651,
-    "max_drawdown": -5.665454596660132
+    "max_drawdown": -5.6654545966601315
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10653,7 +10653,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -3.099153872398499,
     "profit_factor": 0.9843454811875044,
-    "max_drawdown": -5.665454596660132
+    "max_drawdown": -5.6654545966601315
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10662,7 +10662,7 @@
     "profitable": true,
     "number_of_trades": 50,
     "total_deployed": 5000.0,
-    "gross_profit": 2.316757597824448,
+    "gross_profit": 2.3167575978244477,
     "net_profit": 1.3167575978244468,
     "return_on_deployed_capital": 0.0002633515195648,
     "average_net_profit_per_trade": 0.0263351519564889,
@@ -10671,7 +10671,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -3.035196590817726,
     "profit_factor": 1.0801782875474268,
-    "max_drawdown": -5.665454596660132
+    "max_drawdown": -5.6654545966601315
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10689,7 +10689,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -3.035196590817726,
     "profit_factor": 1.0358546671387072,
-    "max_drawdown": -5.665454596660132
+    "max_drawdown": -5.6654545966601315
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10707,7 +10707,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -3.035196590817726,
     "profit_factor": 1.085233348102915,
-    "max_drawdown": -5.665454596660132
+    "max_drawdown": -5.6654545966601315
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10716,7 +10716,7 @@
     "profitable": true,
     "number_of_trades": 50,
     "total_deployed": 5000.0,
-    "gross_profit": 3.676372174328735,
+    "gross_profit": 3.6763721743287343,
     "net_profit": 2.6763721743287343,
     "return_on_deployed_capital": 0.0005352744348657,
     "average_net_profit_per_trade": 0.0535274434865746,
@@ -10725,7 +10725,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -3.035196590817726,
     "profit_factor": 1.1299422846593985,
-    "max_drawdown": -5.665454596660132
+    "max_drawdown": -5.6654545966601315
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10743,7 +10743,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -3.035196590817726,
     "profit_factor": 1.067423706336479,
-    "max_drawdown": -5.665454596660132
+    "max_drawdown": -5.6654545966601315
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10761,7 +10761,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -3.035196590817726,
     "profit_factor": 1.1049624026816216,
-    "max_drawdown": -4.122930479069471
+    "max_drawdown": -4.1229304790694705
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10779,7 +10779,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -3.035196590817726,
     "profit_factor": 1.1937657135113589,
-    "max_drawdown": -3.2157946557107158
+    "max_drawdown": -3.2157946557107153
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10797,7 +10797,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -2.214475974271659,
     "profit_factor": 1.2192521133189864,
-    "max_drawdown": -3.7360777080584255
+    "max_drawdown": -3.7360777080584264
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10815,7 +10815,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -2.214475974271659,
     "profit_factor": 1.2283080335106384,
-    "max_drawdown": -3.7360777080584255
+    "max_drawdown": -3.7360777080584264
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10833,7 +10833,7 @@
     "best_trade": 2.661480243922807,
     "worst_trade": -2.214475974271659,
     "profit_factor": 1.2728137441917973,
-    "max_drawdown": -3.7360777080584255
+    "max_drawdown": -3.7360777080584264
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -10861,7 +10861,7 @@
     "number_of_trades": 64,
     "total_deployed": 6400.0,
     "gross_profit": 3.1865289678147946,
-    "net_profit": 1.9065289678147932,
+    "net_profit": 1.9065289678147936,
     "return_on_deployed_capital": 0.000297895151221,
     "average_net_profit_per_trade": 0.0297895151221061,
     "median_net_profit_per_trade": 0.13565075099081,
@@ -10878,7 +10878,7 @@
     "profitable": true,
     "number_of_trades": 65,
     "total_deployed": 6500.0,
-    "gross_profit": 3.654196043064108,
+    "gross_profit": 3.654196043064107,
     "net_profit": 2.3541960430641065,
     "return_on_deployed_capital": 0.0003621840066252,
     "average_net_profit_per_trade": 0.0362184006625247,
@@ -10914,7 +10914,7 @@
     "profitable": true,
     "number_of_trades": 64,
     "total_deployed": 6400.0,
-    "gross_profit": 3.639747379324676,
+    "gross_profit": 3.639747379324675,
     "net_profit": 2.359747379324676,
     "return_on_deployed_capital": 0.0003687105280194,
     "average_net_profit_per_trade": 0.036871052801948,
@@ -11130,7 +11130,7 @@
     "profitable": false,
     "number_of_trades": 20,
     "total_deployed": 2000.0,
-    "gross_profit": -2.295298584864192,
+    "gross_profit": -2.2952985848641916,
     "net_profit": -2.695298584864192,
     "return_on_deployed_capital": -0.001347649292432,
     "average_net_profit_per_trade": -0.1347649292432096,
@@ -11257,7 +11257,7 @@
     "number_of_trades": 26,
     "total_deployed": 2600.0,
     "gross_profit": 2.994978824808736,
-    "net_profit": 2.474978824808736,
+    "net_profit": 2.4749788248087357,
     "return_on_deployed_capital": 0.0009519149326187,
     "average_net_profit_per_trade": 0.0951914932618744,
     "median_net_profit_per_trade": 0.0369901988767607,
@@ -11355,7 +11355,7 @@
     "best_trade": 1.6558724579462702,
     "worst_trade": -1.9464448336252185,
     "profit_factor": 1.0193638941823262,
-    "max_drawdown": -4.099698284787968
+    "max_drawdown": -4.0996982847879675
   },
   {
     "strategy": "buy_after_first_green_after_red_above_200dma",
@@ -11490,7 +11490,7 @@
     "profitable": true,
     "number_of_trades": 59,
     "total_deployed": 5900.0,
-    "gross_profit": 5.085525089030496,
+    "gross_profit": 5.0855250890304955,
     "net_profit": 3.9055250890304936,
     "return_on_deployed_capital": 0.0006619534049204,
     "average_net_profit_per_trade": 0.0661953404920422,
@@ -11527,7 +11527,7 @@
     "number_of_trades": 61,
     "total_deployed": 6100.0,
     "gross_profit": 3.5299350342220426,
-    "net_profit": 2.309935034222041,
+    "net_profit": 2.3099350342220415,
     "return_on_deployed_capital": 0.0003786778744626,
     "average_net_profit_per_trade": 0.0378677874462629,
     "median_net_profit_per_trade": -0.0048492500378771,
@@ -11562,7 +11562,7 @@
     "profitable": true,
     "number_of_trades": 62,
     "total_deployed": 6200.0,
-    "gross_profit": 5.036715128830672,
+    "gross_profit": 5.0367151288306715,
     "net_profit": 3.7967151288306704,
     "return_on_deployed_capital": 0.0006123734078759,
     "average_net_profit_per_trade": 0.0612373407875914,
@@ -11581,7 +11581,7 @@
     "number_of_trades": 60,
     "total_deployed": 6000.0,
     "gross_profit": 4.8821113963553815,
-    "net_profit": 3.682111396355381,
+    "net_profit": 3.6821113963553818,
     "return_on_deployed_capital": 0.0006136852327258,
     "average_net_profit_per_trade": 0.0613685232725896,
     "median_net_profit_per_trade": 0.0316416750250159,
@@ -11599,7 +11599,7 @@
     "number_of_trades": 61,
     "total_deployed": 6100.0,
     "gross_profit": 3.086300804886854,
-    "net_profit": 1.8663008048868532,
+    "net_profit": 1.8663008048868537,
     "return_on_deployed_capital": 0.0003059509516207,
     "average_net_profit_per_trade": 0.0305950951620795,
     "median_net_profit_per_trade": 0.0061244394130777,
@@ -11760,7 +11760,7 @@
     "profitable": false,
     "number_of_trades": 56,
     "total_deployed": 5600.0,
-    "gross_profit": -6.895405200941696,
+    "gross_profit": -6.8954052009416955,
     "net_profit": -8.015405200941697,
     "return_on_deployed_capital": -0.001431322357311,
     "average_net_profit_per_trade": -0.1431322357311017,
@@ -11888,14 +11888,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -11906,14 +11906,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -11924,14 +11924,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -11948,7 +11948,7 @@
     "win_rate": 1.0,
     "best_trade": 1.165964054285371,
     "worst_trade": 1.165964054285371,
-    "profit_factor": NaN,
+    "profit_factor": null,
     "max_drawdown": 0.0
   },
   {
@@ -11966,7 +11966,7 @@
     "win_rate": 1.0,
     "best_trade": 1.165964054285371,
     "worst_trade": 1.165964054285371,
-    "profit_factor": NaN,
+    "profit_factor": null,
     "max_drawdown": 0.0
   },
   {
@@ -11983,7 +11983,7 @@
     "median_net_profit_per_trade": -0.0970218228498098,
     "win_rate": 0.4285714285714285,
     "best_trade": 1.165964054285371,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.4948982904751382,
     "max_drawdown": -3.952795566881744
   },
@@ -12001,7 +12001,7 @@
     "median_net_profit_per_trade": 0.531423441908172,
     "win_rate": 0.6363636363636364,
     "best_trade": 1.165964054285371,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.9768455106091698,
     "max_drawdown": -3.952795566881744
   },
@@ -12019,7 +12019,7 @@
     "median_net_profit_per_trade": 0.4353227701303508,
     "win_rate": 0.6666666666666666,
     "best_trade": 1.165964054285371,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.9846223449683792,
     "max_drawdown": -3.952795566881744
   },
@@ -12037,7 +12037,7 @@
     "median_net_profit_per_trade": 0.531423441908172,
     "win_rate": 0.6666666666666666,
     "best_trade": 1.165964054285371,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 0.9967510581186066,
     "max_drawdown": -3.952795566881744
   },
@@ -12055,7 +12055,7 @@
     "median_net_profit_per_trade": 0.4353227701303508,
     "win_rate": 0.5909090909090909,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 1.0560866261285464,
     "max_drawdown": -4.9275999348040695
   },
@@ -12073,7 +12073,7 @@
     "median_net_profit_per_trade": 0.4353227701303508,
     "win_rate": 0.5769230769230769,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 1.1405178680606556,
     "max_drawdown": -4.9275999348040695
   },
@@ -12091,7 +12091,7 @@
     "median_net_profit_per_trade": 0.3430392591699394,
     "win_rate": 0.5714285714285714,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 1.1597680851010357,
     "max_drawdown": -4.9275999348040695
   },
@@ -12109,7 +12109,7 @@
     "median_net_profit_per_trade": 0.3430392591699394,
     "win_rate": 0.5714285714285714,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 1.1597680851010357,
     "max_drawdown": -4.9275999348040695
   },
@@ -12127,7 +12127,7 @@
     "median_net_profit_per_trade": 0.3430392591699394,
     "win_rate": 0.5714285714285714,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 1.1597680851010357,
     "max_drawdown": -4.9275999348040695
   },
@@ -12145,7 +12145,7 @@
     "median_net_profit_per_trade": 0.3430392591699394,
     "win_rate": 0.5714285714285714,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 1.1597680851010357,
     "max_drawdown": -4.9275999348040695
   },
@@ -12163,7 +12163,7 @@
     "median_net_profit_per_trade": 0.3392220983525296,
     "win_rate": 0.5555555555555556,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 1.070843470833189,
     "max_drawdown": -4.92759993480407
   },
@@ -12181,7 +12181,7 @@
     "median_net_profit_per_trade": 0.3392220983525296,
     "win_rate": 0.5555555555555556,
     "best_trade": 2.707877578176985,
-    "worst_trade": -2.2909475332811318,
+    "worst_trade": -2.2909475332811313,
     "profit_factor": 1.070843470833189,
     "max_drawdown": -4.92759993480407
   },
@@ -12302,14 +12302,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12320,14 +12320,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12338,14 +12338,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12356,14 +12356,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12374,14 +12374,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12392,14 +12392,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12410,14 +12410,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12428,14 +12428,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12446,14 +12446,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12464,14 +12464,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12482,14 +12482,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12500,14 +12500,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12518,14 +12518,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12536,14 +12536,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12554,14 +12554,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12572,14 +12572,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12590,14 +12590,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12608,14 +12608,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12626,14 +12626,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -12859,7 +12859,7 @@
     "number_of_trades": 14,
     "total_deployed": 1400.0,
     "gross_profit": 4.042441973584299,
-    "net_profit": 3.7624419735842975,
+    "net_profit": 3.7624419735842984,
     "return_on_deployed_capital": 0.0026874585525602,
     "average_net_profit_per_trade": 0.2687458552560213,
     "median_net_profit_per_trade": 0.1837211136394656,
@@ -12877,7 +12877,7 @@
     "number_of_trades": 11,
     "total_deployed": 1100.0,
     "gross_profit": 3.0127320496977195,
-    "net_profit": 2.7927320496977197,
+    "net_profit": 2.7927320496977193,
     "return_on_deployed_capital": 0.002538847317907,
     "average_net_profit_per_trade": 0.2538847317907017,
     "median_net_profit_per_trade": 0.0996172248803861,
@@ -12894,7 +12894,7 @@
     "profitable": true,
     "number_of_trades": 8,
     "total_deployed": 800.0,
-    "gross_profit": 2.397517076065669,
+    "gross_profit": 2.3975170760656694,
     "net_profit": 2.2375170760656693,
     "return_on_deployed_capital": 0.002796896345082,
     "average_net_profit_per_trade": 0.2796896345082086,
@@ -12938,7 +12938,7 @@
     "win_rate": 1.0,
     "best_trade": 1.83185185185186,
     "worst_trade": 1.83185185185186,
-    "profit_factor": NaN,
+    "profit_factor": null,
     "max_drawdown": 0.0
   },
   {
@@ -13182,7 +13182,7 @@
     "profitable": true,
     "number_of_trades": 5,
     "total_deployed": 500.0,
-    "gross_profit": 3.101803545972825,
+    "gross_profit": 3.1018035459728255,
     "net_profit": 3.0018035459728254,
     "return_on_deployed_capital": 0.0060036070919456,
     "average_net_profit_per_trade": 0.6003607091945651,
@@ -13202,14 +13202,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -13220,14 +13220,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -13238,14 +13238,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -13256,14 +13256,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -13274,14 +13274,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -13292,14 +13292,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -13310,14 +13310,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -13328,14 +13328,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -13453,7 +13453,7 @@
     "number_of_trades": 27,
     "total_deployed": 2700.0,
     "gross_profit": -2.614548537790085,
-    "net_profit": -3.1545485377900837,
+    "net_profit": -3.1545485377900833,
     "return_on_deployed_capital": -0.0011683513102926,
     "average_net_profit_per_trade": -0.1168351310292623,
     "median_net_profit_per_trade": -0.3046840007591611,
@@ -13657,7 +13657,7 @@
     "median_net_profit_per_trade": -0.1412198545361697,
     "win_rate": 0.4571428571428571,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 0.8235634919533722,
     "max_drawdown": -6.494600321803445
   },
@@ -13675,7 +13675,7 @@
     "median_net_profit_per_trade": -0.1936663262602689,
     "win_rate": 0.4333333333333333,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 0.8216878826989192,
     "max_drawdown": -6.4922434559136
   },
@@ -13693,7 +13693,7 @@
     "median_net_profit_per_trade": -0.3155611189418394,
     "win_rate": 0.4166666666666667,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 0.8493277726106553,
     "max_drawdown": -4.718380279432573
   },
@@ -13711,9 +13711,9 @@
     "median_net_profit_per_trade": -0.1412198545361697,
     "win_rate": 0.4736842105263157,
     "best_trade": 2.867866901122682,
-    "worst_trade": -2.268488553766725,
+    "worst_trade": -2.2684885537667254,
     "profit_factor": 1.4195928245154226,
-    "max_drawdown": -2.268488553766725
+    "max_drawdown": -2.2684885537667254
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -13820,7 +13820,7 @@
     "win_rate": 1.0,
     "best_trade": 0.6491760769552468,
     "worst_trade": 0.6491760769552468,
-    "profit_factor": NaN,
+    "profit_factor": null,
     "max_drawdown": 0.0
   },
   {
@@ -13838,7 +13838,7 @@
     "win_rate": 1.0,
     "best_trade": 0.6491760769552468,
     "worst_trade": 0.6491760769552468,
-    "profit_factor": NaN,
+    "profit_factor": null,
     "max_drawdown": 0.0
   },
   {
@@ -13856,7 +13856,7 @@
     "win_rate": 1.0,
     "best_trade": 0.6491760769552468,
     "worst_trade": 0.6491760769552468,
-    "profit_factor": NaN,
+    "profit_factor": null,
     "max_drawdown": 0.0
   },
   {
@@ -13874,7 +13874,7 @@
     "win_rate": 1.0,
     "best_trade": 0.6491760769552468,
     "worst_trade": 0.6491760769552468,
-    "profit_factor": NaN,
+    "profit_factor": null,
     "max_drawdown": 0.0
   },
   {
@@ -13892,7 +13892,7 @@
     "win_rate": 1.0,
     "best_trade": 0.6491760769552468,
     "worst_trade": 0.6491760769552468,
-    "profit_factor": NaN,
+    "profit_factor": null,
     "max_drawdown": 0.0
   },
   {
@@ -13910,7 +13910,7 @@
     "win_rate": 1.0,
     "best_trade": 0.6491760769552468,
     "worst_trade": 0.6491760769552468,
-    "profit_factor": NaN,
+    "profit_factor": null,
     "max_drawdown": 0.0
   },
   {
@@ -13928,7 +13928,7 @@
     "win_rate": 1.0,
     "best_trade": 0.6491760769552468,
     "worst_trade": 0.6491760769552468,
-    "profit_factor": NaN,
+    "profit_factor": null,
     "max_drawdown": 0.0
   },
   {
@@ -13940,14 +13940,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -13958,14 +13958,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -13976,14 +13976,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -13994,14 +13994,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -14012,14 +14012,14 @@
     "total_deployed": 0.0,
     "gross_profit": 0.0,
     "net_profit": 0.0,
-    "return_on_deployed_capital": NaN,
-    "average_net_profit_per_trade": NaN,
-    "median_net_profit_per_trade": NaN,
-    "win_rate": NaN,
-    "best_trade": NaN,
-    "worst_trade": NaN,
-    "profit_factor": NaN,
-    "max_drawdown": NaN
+    "return_on_deployed_capital": null,
+    "average_net_profit_per_trade": null,
+    "median_net_profit_per_trade": null,
+    "win_rate": null,
+    "best_trade": null,
+    "worst_trade": null,
+    "profit_factor": null,
+    "max_drawdown": null
   },
   {
     "strategy": "buy_after_first_green_after_red_below_200dma",
@@ -14299,7 +14299,7 @@
     "number_of_trades": 252,
     "total_deployed": 25200.0,
     "gross_profit": 8.622454949450553,
-    "net_profit": 3.582454949450549,
+    "net_profit": 3.5824549494505495,
     "return_on_deployed_capital": 0.0001421609106924,
     "average_net_profit_per_trade": 0.0142160910692482,
     "median_net_profit_per_trade": 0.0048060600623212,
@@ -14334,7 +14334,7 @@
     "profitable": false,
     "number_of_trades": 252,
     "total_deployed": 25200.0,
-    "gross_profit": 3.3834249968970878,
+    "gross_profit": 3.3834249968970873,
     "net_profit": -1.6565750031029136,
     "return_on_deployed_capital": -6.573710329773466e-05,
     "average_net_profit_per_trade": -0.0065737103297734,
@@ -14426,7 +14426,7 @@
     "total_deployed": 25100.0,
     "gross_profit": 5.621178409664196,
     "net_profit": 0.6011784096641932,
-    "return_on_deployed_capital": 2.395133106231845e-05,
+    "return_on_deployed_capital": 2.3951331062318457e-05,
     "average_net_profit_per_trade": 0.0023951331062318,
     "median_net_profit_per_trade": 0.0039291696578103,
     "win_rate": 0.50199203187251,
@@ -14461,7 +14461,7 @@
     "number_of_trades": 252,
     "total_deployed": 25200.0,
     "gross_profit": 9.049604635821533,
-    "net_profit": 4.009604635821527,
+    "net_profit": 4.0096046358215265,
     "return_on_deployed_capital": 0.0001591112950722,
     "average_net_profit_per_trade": 0.0159111295072282,
     "median_net_profit_per_trade": 0.0238160053121694,
@@ -14658,7 +14658,7 @@
     "profitable": true,
     "number_of_trades": 250,
     "total_deployed": 25000.0,
-    "gross_profit": 22.16764306718689,
+    "gross_profit": 22.167643067186894,
     "net_profit": 17.167643067186894,
     "return_on_deployed_capital": 0.0006867057226874,
     "average_net_profit_per_trade": 0.0686705722687475,
@@ -14820,8 +14820,8 @@
     "profitable": true,
     "number_of_trades": 252,
     "total_deployed": 25200.0,
-    "gross_profit": 23.11873875253197,
-    "net_profit": 18.07873875253197,
+    "gross_profit": 23.118738752531975,
+    "net_profit": 18.078738752531972,
     "return_on_deployed_capital": 0.0007174102679576,
     "average_net_profit_per_trade": 0.0717410267957617,
     "median_net_profit_per_trade": 0.0481502009640233,
@@ -14847,7 +14847,7 @@
     "best_trade": 1.2064749418481768,
     "worst_trade": -1.6473732526601248,
     "profit_factor": 1.6168360717292996,
-    "max_drawdown": -2.247798153531505
+    "max_drawdown": -2.2477981535315052
   },
   {
     "strategy": "buy_every_session",
@@ -15063,7 +15063,7 @@
     "best_trade": 5.196095380029806,
     "worst_trade": -5.433492927094665,
     "profit_factor": 0.9455771627620708,
-    "max_drawdown": -19.06257516065229
+    "max_drawdown": -19.062575160652298
   },
   {
     "strategy": "buy_every_session",
@@ -15099,7 +15099,7 @@
     "best_trade": 5.196095380029806,
     "worst_trade": -3.6832891660171474,
     "profit_factor": 1.063749347549453,
-    "max_drawdown": -19.06257516065229
+    "max_drawdown": -19.062575160652298
   },
   {
     "strategy": "buy_every_session",
@@ -15153,7 +15153,7 @@
     "best_trade": 5.196095380029806,
     "worst_trade": -3.6832891660171474,
     "profit_factor": 1.0886415369318634,
-    "max_drawdown": -19.06257516065229
+    "max_drawdown": -19.062575160652298
   },
   {
     "strategy": "buy_every_session",
@@ -15207,7 +15207,7 @@
     "best_trade": 5.196095380029806,
     "worst_trade": -3.6832891660171474,
     "profit_factor": 1.0912605308855232,
-    "max_drawdown": -19.06257516065229
+    "max_drawdown": -19.062575160652298
   },
   {
     "strategy": "buy_every_session",
@@ -15294,7 +15294,7 @@
     "average_net_profit_per_trade": 0.0831310297261119,
     "median_net_profit_per_trade": 0.1165850232716958,
     "win_rate": 0.5753968253968254,
-    "best_trade": 2.1016156236129717,
+    "best_trade": 2.1016156236129713,
     "worst_trade": -3.408239310403685,
     "profit_factor": 1.3529852224895649,
     "max_drawdown": -6.190689130460738
@@ -15312,7 +15312,7 @@
     "average_net_profit_per_trade": 0.0404755069998194,
     "median_net_profit_per_trade": 0.1129573699289543,
     "win_rate": 0.5753968253968254,
-    "best_trade": 2.1016156236129717,
+    "best_trade": 2.1016156236129713,
     "worst_trade": -4.64059511329731,
     "profit_factor": 1.1447769388015114,
     "max_drawdown": -12.49979108578595
@@ -15343,7 +15343,7 @@
     "number_of_trades": 253,
     "total_deployed": 25300.0,
     "gross_profit": 26.75666533536453,
-    "net_profit": 21.69666533536453,
+    "net_profit": 21.696665335364532,
     "return_on_deployed_capital": 0.0008575757049551,
     "average_net_profit_per_trade": 0.0857575704955119,
     "median_net_profit_per_trade": 0.1174848362313052,
@@ -15397,7 +15397,7 @@
     "number_of_trades": 253,
     "total_deployed": 25300.0,
     "gross_profit": 42.49007989562206,
-    "net_profit": 37.43007989562207,
+    "net_profit": 37.430079895622065,
     "return_on_deployed_capital": 0.0014794497982459,
     "average_net_profit_per_trade": 0.1479449798245931,
     "median_net_profit_per_trade": 0.1721630879772706,
@@ -15648,7 +15648,7 @@
     "profitable": true,
     "number_of_trades": 252,
     "total_deployed": 25200.0,
-    "gross_profit": 21.493052205334397,
+    "gross_profit": 21.493052205334394,
     "net_profit": 16.453052205334394,
     "return_on_deployed_capital": 0.000652898897037,
     "average_net_profit_per_trade": 0.0652898897037079,
@@ -15763,7 +15763,7 @@
     "median_net_profit_per_trade": 0.0598679516532674,
     "win_rate": 0.5335968379446641,
     "best_trade": 2.923655189019978,
-    "worst_trade": -2.578746736292428,
+    "worst_trade": -2.5787467362924277,
     "profit_factor": 1.105338308334713,
     "max_drawdown": -14.433763147026765
   },
@@ -15855,7 +15855,7 @@
     "best_trade": 3.440801796446744,
     "worst_trade": -4.138545676749163,
     "profit_factor": 0.8736453024728346,
-    "max_drawdown": -26.923777542760597
+    "max_drawdown": -26.923777542760593
   },
   {
     "strategy": "buy_every_session",
@@ -15873,7 +15873,7 @@
     "best_trade": 3.440801796446744,
     "worst_trade": -4.560763673890612,
     "profit_factor": 0.8393418312835756,
-    "max_drawdown": -31.64423371334073
+    "max_drawdown": -31.644233713340732
   },
   {
     "strategy": "buy_every_session",
@@ -15909,7 +15909,7 @@
     "best_trade": 5.4098642533936685,
     "worst_trade": -4.560763673890612,
     "profit_factor": 0.9064339210787096,
-    "max_drawdown": -31.21813226348709
+    "max_drawdown": -31.218132263487092
   },
   {
     "strategy": "buy_every_session",
@@ -15918,7 +15918,7 @@
     "profitable": false,
     "number_of_trades": 251,
     "total_deployed": 25100.0,
-    "gross_profit": -18.45268043369269,
+    "gross_profit": -18.452680433692695,
     "net_profit": -23.47268043369269,
     "return_on_deployed_capital": -0.0009351665511431,
     "average_net_profit_per_trade": -0.0935166551143135,
@@ -15981,7 +15981,7 @@
     "best_trade": 5.4098642533936685,
     "worst_trade": -4.560763673890612,
     "profit_factor": 0.8948884945149419,
-    "max_drawdown": -26.45224347452397
+    "max_drawdown": -26.452243474523975
   },
   {
     "strategy": "buy_every_session",
@@ -16117,7 +16117,7 @@
     "number_of_trades": 252,
     "total_deployed": 25200.0,
     "gross_profit": 6.907016365291299,
-    "net_profit": 1.8670163652912928,
+    "net_profit": 1.8670163652912932,
     "return_on_deployed_capital": 7.408795100362275e-05,
     "average_net_profit_per_trade": 0.0074087951003622,
     "median_net_profit_per_trade": 0.0175212178917339,
@@ -16431,7 +16431,7 @@
     "best_trade": 9.662896379525597,
     "worst_trade": -5.78710307947631,
     "profit_factor": 1.0426356730223998,
-    "max_drawdown": -20.23816303337044
+    "max_drawdown": -20.238163033370437
   },
   {
     "strategy": "buy_every_session",
@@ -16557,7 +16557,7 @@
     "best_trade": 9.662896379525597,
     "worst_trade": -5.78710307947631,
     "profit_factor": 1.038615656274701,
-    "max_drawdown": -20.238163033370437
+    "max_drawdown": -20.238163033370434
   },
   {
     "strategy": "buy_every_session",

@@ -64,7 +64,7 @@
     "number_of_trades": 578,
     "total_deployed": 57800.0,
     "gross_profit": -12.726798088406964,
-    "net_profit": -24.28679808840697,
+    "net_profit": -24.286798088406975,
     "return_on_deployed_capital": -0.0004201868181385,
     "average_net_profit_per_trade": -0.0420186818138529,
     "median_net_profit_per_trade": -0.02,
@@ -102,6 +102,6 @@
     "best_trade": 5.669655172413799,
     "worst_trade": -9.650668536699394,
     "profit_factor": 0.7004114720980135,
-    "max_drawdown": -49.74494335587176
+    "max_drawdown": -49.744943355871754
   }
 ]
