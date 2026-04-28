@@ -4,3 +4,11 @@ node_modules/
 .next/
 out/
 .vercel/
+
+# Next.js generated files
+.next/
+out/
+.vercel/
+
+# Node dependencies
+node_modules/
