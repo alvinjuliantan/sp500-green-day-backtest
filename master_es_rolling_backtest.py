@@ -341,8 +341,13 @@ def summarize_trades(trades, trade_size):
             "net_profit": 0.0,
             "return_on_deployed_capital": np.nan,
             "average_net_profit_per_trade": np.nan,
+            "expected_profit_per_trade": np.nan,
+            "expected_return_per_trade_pct": np.nan,
             "median_net_profit_per_trade": np.nan,
             "win_rate": np.nan,
+            "average_win": np.nan,
+            "average_loss": np.nan,
+            "payoff_ratio": np.nan,
             "best_trade": np.nan,
             "worst_trade": np.nan,
             "profit_factor": np.nan,
@@ -358,6 +363,10 @@ def summarize_trades(trades, trade_size):
     gross_wins = wins.sum()
     gross_losses = losses.sum()
     profit_factor = gross_wins / abs(gross_losses) if gross_losses != 0 else np.nan
+    average_net_profit_per_trade = trades["net_profit"].mean()
+    average_win = wins.mean() if not wins.empty else np.nan
+    average_loss = losses.mean() if not losses.empty else np.nan
+    payoff_ratio = average_win / abs(average_loss) if pd.notna(average_loss) and average_loss != 0 else np.nan
 
     return {
         "number_of_trades": number_of_trades,
@@ -365,9 +374,14 @@ def summarize_trades(trades, trade_size):
         "gross_profit": gross_profit,
         "net_profit": net_profit,
         "return_on_deployed_capital": net_profit / total_deployed if total_deployed > 0 else np.nan,
-        "average_net_profit_per_trade": trades["net_profit"].mean(),
+        "average_net_profit_per_trade": average_net_profit_per_trade,
+        "expected_profit_per_trade": average_net_profit_per_trade,
+        "expected_return_per_trade_pct": average_net_profit_per_trade / trade_size,
         "median_net_profit_per_trade": trades["net_profit"].median(),
         "win_rate": (trades["net_profit"] > 0).mean(),
+        "average_win": average_win,
+        "average_loss": average_loss,
+        "payoff_ratio": payoff_ratio,
         "best_trade": trades["net_profit"].max(),
         "worst_trade": trades["net_profit"].min(),
         "profit_factor": profit_factor,
@@ -446,6 +460,11 @@ def summarize_rolling_results(rolling_df):
             "average_trades_per_year": group["number_of_trades"].mean(),
             "median_trades_per_year": group["number_of_trades"].median(),
             "average_win_rate": group["win_rate"].mean(),
+            "expected_profit_per_trade": group["expected_profit_per_trade"].mean(),
+            "expected_return_per_trade_pct": group["expected_return_per_trade_pct"].mean(),
+            "average_win": group["average_win"].mean(),
+            "average_loss": group["average_loss"].mean(),
+            "average_payoff_ratio": group["payoff_ratio"].replace([np.inf, -np.inf], np.nan).mean(),
             "average_profit_factor": group["profit_factor"].replace([np.inf, -np.inf], np.nan).mean(),
             "average_max_drawdown": group["max_drawdown"].mean(),
             "median_return_on_deployed_capital": group["return_on_deployed_capital"].median(),
